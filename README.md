@@ -22,11 +22,11 @@ Los prototipos y diseños se han realizado en Figma, asegurando una experiencia 
 
 El proyecto ha sido llevado a cabo por un equipo apasionado y dedicado:
 
-- Jenny - [Perfil de GitHub](https://github.com/jenny)
-- Catalina - [Perfil de GitHub](https://github.com/catalina)
-- Pamela - [Perfil de GitHub](https://github.com/pamela)
-- Víctor - [Perfil de GitHub](https://github.com/victor)
-- Johan - [Perfil de GitHub](https://github.com/johan)
+- Jenny - [Perfil de GitHub](https://github.com/)
+- Catalina - [Perfil de GitHub](https://github.com/)
+- Pamela - [Perfil de GitHub](https://github.com/)
+- Víctor - [Perfil de GitHub](https://github.com/)
+- Johan - [Perfil de GitHub](https://github.com/johan-flowcode)
 
 ## 📁 Estructura del Repositorio
 
