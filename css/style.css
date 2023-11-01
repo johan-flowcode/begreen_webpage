@@ -1,8 +1,9 @@
 body{
     font-family: Arial,sans-serif;
-    margin: 0%;
-    padding: 0;
+    margin: 0;
+    padding: 0%;
     background-color: rgb(247, 240, 240);
+   
 }
 /*ENCABEZADO*/
 .header {
@@ -12,14 +13,15 @@ body{
 }
 /*Menu de Navegacion*/
 .menu {
-    display:flex;
+    display: flex;
     justify-content:space-between;
     align-items:center;
-    padding: 0 50px;
-    
+    padding: 0 30px;
 }
+
+
 .menu img {
-  height: 130px;  
+  height: 120px;  
 }
 
 .menu ul {
@@ -29,27 +31,55 @@ body{
     display: flex;
 }
 .menu ul li {
-    margin: 0 50px;
+    margin: 0 5px;
 
 }
 .menu ul li a {
     color:rgb(49, 153, 49);
     text-decoration:none;
-    font-size: 120%;
+    font-size: 90%;
+    margin-right:50px;
     
 } 
 /*CONTENEDOR DE BUSQUEDA*/
 
+.search-container,.iconos{
+    margin-left:0;
+    padding: 0;
+}
+
 .search-right {
     display:flex;
-}
+    margin-right:0;
 
+}
 
 .search-container input [type="submit"]{
-    padding: 5px;
-    margin-right: 5px;
+    padding: 5px 10px;
+    margin: right 5px ;
 }
 
-.search-container input [ type="search"]{
-    
+.search-container input [type="submit"]{
+    background-color: #27ae60;
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    cursor: pointer;
+}
+
+
+.search-container input[type="submit"]:hover {
+ background-color:rgb(49, 153, 49);
+}
+
+.iconos{
+    display:flex;
+    align-items: center;
+    padding: 0 40px;
+}
+
+.iconos i{
+    font-size: 25px;
+    color:  rgb(49, 153, 49);
+    margin-right: 20px;
 }
