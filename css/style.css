@@ -122,10 +122,13 @@ body{
 }
 
 /*CATEGORIAS*/
-.categorias h5{
+.categorias h4{
     text-align:start;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     color: rgb(1, 91, 12);
+}
+.categorias{
+    margin: 100px 0;
 }
 
 
@@ -168,8 +171,11 @@ body{
 /*SECCION DE PRODUCTOS*/
 .productos,h4{
     text-align:start;
-    margin-bottom: 200px;
+    margin-bottom: 20px;
     color: rgb(1, 91, 12);
+}
+.productos{
+    margin: 100px 0;
 }
 
 .product-container {
@@ -214,4 +220,42 @@ body{
 
 .producto button:hover {
     background-color: rgb(1, 91, 12);
+}
+
+/*SECCION NOSOTROS*/
+.nosotros{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+.nosotros{
+    margin: 100px 0;
+}
+
+.nosotros-conten {
+display: flex;
+align-items: flex-start;
+justify-content: center;
+gap: 40px;/*espacio entre la imagen y el texto*/
+}
+
+.nosotros-imagen {
+    width: 70%;
+    height: auto;   
+}
+
+.nosotros-texto {
+    flex: auto;
+    max-width: 50%; /*el ancho para el texto*/ 
+    font-family: Arial, Helvetica, sans-serif; 
+}
+
+.nosotros h4{
+    margin-bottom:0.5em; /*Espacio por debajo del titulo*/
+    
+}
+.nosotros a{
+    color: rgb(1, 91, 12); 
+    text-decoration: none;
 }
