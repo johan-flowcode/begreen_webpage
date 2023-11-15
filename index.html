@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>begreen</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" type= text/css href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
 </head>
 <body>
   <!--ENCABEZADO-->
@@ -19,7 +20,7 @@
               <li><a href="#">BLOG</a></li>
               <li><a href="#">TIENDA ONLINE</a></li>
               <li><a href="#">NOSOTROS</a></li>
-              <li><a href="#">CONTACTO</a></li>
+              <li><a href="http://127.0.0.1:5500/formulario.html">CONTACTO</a></li>
             </ul>
             <div class="search-container">
                 <form action="/search" method="get">
@@ -36,10 +37,12 @@
      <!--TODA LA INFO DEL SITIO-->
     <main class="container">
        <!-- Sección del Banner -->
-       <section class="banner">
-        <h6>...</h6>
-          <img src="img/image5.jpg" alt="Banner-Imagen">
-       </section>
+       <section class="single-item">
+        <div><img src="img/image5.jpg" alt="dia del veganismo imagen"></div>
+        <div><img src="img/fruta.png" alt="botellasveganas"></div>
+        <div><img src="img/veggbotle.png" alt="vegetales y frutas"></div>
+        <div><img src="img/producvg.png" alt="imagen pizzas y verduras"></div>
+      </section>
        <!--ICONOS ENVIO, GARANTIA, FIDELIDAD-->
         <div class="fidelity-icons">
           <i class="fa fa-truck" aria-hidden="true"> ENVÍO RÁPIDO</i>
@@ -206,5 +209,8 @@
             </div>
         </div>
     </footer>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.js"></script>
+ <script src="JavaScript/app.js" src="slick/slick.min.js" ></script>
 </body>
 </html>

@@ -1,18 +1,18 @@
 body{
-    font-family: Arial,sans-serif;
+    font-family: Arial,sans-serif; /*<----------- define la fuente o el estilo de letra de la pagina*/
     margin: 0 auto;
     padding: 0%;
     background-color: rgb(242, 239, 242);
 }
 
-/*ENCABEZADO*/
+/*--------ENCABEZADO---------------------*/
 .header {
     background-color: rgb(242,247,243);
     margin: 0 auto;
     padding: 20px 0;
 }
 
-/*Menu de Navegacion*/
+/*---------Menu de Navegacion-----------*/
 .menu {
     display: flex;
     justify-content:space-around;
@@ -47,7 +47,7 @@ body{
     color:rgb(2, 190, 2);
     transform: scale(3,3);
 }
-/*CONTENEDOR DE BUSQUEDA*/
+/*---------CONTENEDOR DE BUSQUEDA-------------*/
 
 .search-container,.iconos{
     margin-left:0;
@@ -90,7 +90,7 @@ body{
     margin-right: 10px;
 }
 
-/*TODA LA INFO DE LA PAGINA*/
+/*--------TODA LA INFO DE LA PAGINA---------------*/
 .container,h5,h5{
     max-width: 1200px;
     margin: 0 auto;
@@ -102,12 +102,68 @@ body{
  color: rgb(242, 239, 242);
 }
 
-.banner img {
+.single-item img {
     width: 100%;
     height: auto;
     display: block;
 }
-/*ICONOS FIDELIDAD,ENVIOS*/
+
+.slick-dots{
+    text-align: center;
+    margin: 5px 0;
+
+}
+
+.slick-dots li{
+    display: inline-block;
+    margin: 0 20px;
+    background-color:transparent;
+    font-size: 1px;
+    color: transparent;
+    border-radius: 50%;
+
+
+}
+
+.slick-dots li button{
+    font-size: 2px;
+    line-height: 05px;  
+    background-color:  rgb(136, 133, 133);
+    border-radius: 50%;
+}
+
+
+.slick-prev,
+.slick-next {
+
+    position: absolute;
+    top: 50%;
+    z-index: 1;
+    transform: translateY(-50%);
+    border-radius:100%;
+    font-size: 30px;
+    background-color: transparent;
+    border:transparent;
+
+    
+}
+
+.slick-prev i,
+.slick-next i {
+    color:rgb(136, 133, 133); /* Color de los íconos */
+}
+
+.slick-next{
+    right:10px;
+
+}
+
+.slick-prev{
+    left: 10px;
+
+}
+
+/*---------------ICONOS FIDELIDAD,ENVIOS-------------*/
 .fidelity-icons {
     display: flex;
     justify-content: space-around;
@@ -126,7 +182,7 @@ body{
     transform: scale (1,1);
 }
 
-/*CATEGORIAS*/
+/*-----------------CATEGORIAS--------------------*/
 .categorias h3{
     text-align:start;
     margin-bottom: 10px;
@@ -173,7 +229,7 @@ body{
     background-color: rgb(1, 91, 12);
 }
 
-/*SECCION DE PRODUCTOS (más vendidos)*/
+/*------------SECCION DE PRODUCTOS (más vendidos)---------*/
 .productos,h3{
     text-align:start;
     margin-bottom: 20px;
@@ -227,7 +283,7 @@ body{
     background-color: rgb(1, 91, 12);
 }
 
-/*SECCION NOSOTROS*/
+/*----------SECCION NOSOTROS--------------*/
 .nosotros{
     display: flex;
     align-items: center;
@@ -252,7 +308,7 @@ gap: 40px;/*espacio entre imagen y texto*/
 
 .nosotros-texto {
     flex: auto;
-    max-width: 50%; /*el ancho para el texto*/ 
+    max-width: 50%; /*<----------------el ancho para el texto*/ 
     font-family: Arial, Helvetica, sans-serif; 
 }
 
@@ -265,7 +321,7 @@ gap: 40px;/*espacio entre imagen y texto*/
     text-decoration: none;
 }
 
-/*Pie de pagina FOOTER*/
+/*---------Pie de pagina FOOTER---------*/
 
 .pie-depagina{
     padding: 20 0px;
