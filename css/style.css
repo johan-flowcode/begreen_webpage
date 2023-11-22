@@ -7,7 +7,7 @@ body {
 
 }
 
-.hidden{
+.hidden {
     display: none;
 
 }
@@ -72,6 +72,7 @@ header {
 
 }
 
+
 /*---------CONTENEDOR DE BUSQUEDA-------------*/
 
 .menu-search-container {
@@ -85,14 +86,14 @@ header {
 
 }
 
-.menu-search-container input [type="submit"] {
-    padding: 5px 10px;
+.menu-search-container input [type="text"] {
+    padding: 10px 5px;
 
 }
 
 .menu-search-container input [type="submit"] {
-    background-color: white;
-    color: white;
+    background-color: rgb(220, 244, 223);
+    color: rgb(1, 98, 12);
     border: none;
     padding: 6px 12px;
     cursor: pointer;
@@ -142,7 +143,6 @@ header {
 
 @media screen and (max-width: 550px) {
 
-
     .open-menu,
     .close-menu {
         display: block;
@@ -184,7 +184,7 @@ header {
     }
 
 
-    .menu-list  {
+    .menu-list {
         padding-top: 80px;
         flex-direction: column;
         align-items: flex-start;
@@ -192,22 +192,22 @@ header {
     }
 
 
-    .menu-list  li {
-    
+    .menu-list li {
+
         padding: 15px;
-        
+
 
     }
 
 
     .menu-iconos {
-    
-     padding: 20px;
-    
-        
+
+        padding: 20px;
+
+
     }
 
-    
+
 
 
 }
@@ -600,8 +600,15 @@ h3 {
 }
 
 .newsletter input[type="email"] {
-    padding: 5px;
+    padding: 10px 5px;
     margin-right: 5px;
+    width: 60%;
+    background-color: rgb(242, 239, 242);
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    border: solid 1px #919191;
+    color: #919191;
 
 }
 
@@ -611,17 +618,24 @@ h3 {
 
 }
 
-.newsletter input [type="submit"] {
-    padding: 5px 10px;
-    background-color: #9AC586;
+.boton-suscribirse {
+    display: inline-block;
+    padding: 10px 5px;
+    background-color: rgb(220, 244, 223);
+    text-align: center;
     border: none;
+    text-decoration: none;
     cursor: pointer;
-    color: black;
+    color: rgb(1, 91, 12);
+    border: solid 2px #9AC586;
+    border-radius: 20px;
+
 
 }
 
-.newsletter input[type="submit"]:hover {
+.boton-suscribirse:hover {
     background-color: rgb(2, 190, 2);
+    box-shadow: 0 3px 6px #919191;
 
 }
 
@@ -650,7 +664,7 @@ h3 {
 
     }
 
-    
+
 
 
 

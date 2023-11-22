@@ -1,5 +1,5 @@
 
-//----> Menu de navegación
+//----> Menu de navegación hamburguesa
 const menu = document.querySelector("#menu");
 const open = document.querySelector("#open");
 const close = document.querySelector("#close");
@@ -35,4 +35,20 @@ $(document).ready(function () {
         nextArrow: '<button type="button" class="slick-next"><i class="fa fa-arrow-circle-right" aria-hidden="true"></i></button>',
     });
 });
+
+//->Controlador de eventos
+
+document.addEventListener('DOMContentLoaded', () => {
+    const menuItems = document.querySelectorAll('.menu-list a[href="#"]');
+
+
+    menuItems.forEach(item => {
+        item.addEventListener('click', (event) => {
+            event.preventDefault(); // Previene la navegación por defecto
+            alert("En estos momentos, las páginas están en obras."); // Muestra una alerta
+
+        });
+    });
+});
+
 
