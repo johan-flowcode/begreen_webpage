@@ -22,11 +22,13 @@ Los prototipos y diseños se han realizado en Figma, asegurando una experiencia 
 
 El proyecto ha sido llevado a cabo por un equipo apasionado y dedicado:
 
-- Jenny - [Perfil de GitHub](https://github.com/)
+- Jenny - [erfil de GitHub](Phttps://github.com/)
 - Catalina - [Perfil de GitHub](https://github.com/)
 - Pamela - [Perfil de GitHub](https://github.com/)
 - Víctor - [Perfil de GitHub](https://github.com/)
 - Johan - [Perfil de GitHub](https://github.com/johan-flowcode)
+- Ana -   [erfil de GitHub](Phttps://github.com/)
+- Sergio - [erfil de GitHub](Phttps://github.com/)
 
 ## 📁 Estructura del Repositorio
 
@@ -36,7 +38,8 @@ Aquí está la estructura de nuestro repositorio:
 |---------------------|-----------------------------------------------|
 | `css/style.css`     | Archivo CSS con los estilos de la página.     |
 | `img/`              | Carpeta con imágenes, incluyendo el logo.     |
-| `index.html`        | Archivo HTML principal de la página web.      |
+| `index.html`        | Archivo HTML principal de la página web. 
+ 'Java Script'        | Archivo JS contenido actualización dinámica   
 
 ## 🚀 Lanzamiento
 
